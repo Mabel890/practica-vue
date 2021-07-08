@@ -10,9 +10,9 @@
         data() {
             return {
                 informacion: "",
-            }
-        }
-    }
+            };
+        },
+    };
 </script>
 
 <style></style>
