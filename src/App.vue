@@ -1,6 +1,24 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+    <EjercicioTres msg="Welcome to Your Vue.js App"/>
+  </div>
+</template>
+
+<script>
+import EjercicioTres from './components/EjercicioTres.vue'
+
+export default {
+  name: 'App',
+  components: {
+    EjercicioTres
+  }
+}
+</script>
+<!-- Ejercicio 2, suma de dos valores
+<template>
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png">
     <EjercicioDos msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -15,7 +33,9 @@ export default {
   }
 }
 </script>
-<!-- 
+-->
+
+<!-- Ejercicio 1
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
