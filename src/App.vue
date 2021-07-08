@@ -1,6 +1,24 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
+    <EjercicioDos msg="Welcome to Your Vue.js App"/>
+  </div>
+</template>
+
+<script>
+import EjercicioDos from './components/EjercicioDos.vue'
+
+export default {
+  name: 'App',
+  components: {
+    EjercicioDos
+  }
+}
+</script>
+<!-- 
+<template>
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png">
     <EjercicioUno msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -15,7 +33,7 @@ export default {
   }
 }
 </script>
-
+-->
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
